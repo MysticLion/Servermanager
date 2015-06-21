@@ -1,0 +1,33 @@
+name: ServerManager
+author: Mystic
+version: 1.0
+main: Main.Banmain
+commands:
+  kick: 
+      description: Kickt den Spieler
+  ban: 
+      description: Bannt den Spieler permanent
+  tempban:
+      description: Bannt den Spieler eine bestimmte Zeit lang
+  unban:
+       description: Entbannt einen Spieler
+  bancheck:
+       description: Zeigt Bann-Infos
+  mute: 
+      description: Mutet den Spieler permanent
+  tempmute:
+      description: Mutet den Spieler eine bestimmte Zeit lang
+  unmute:
+       description: Entbmutet einen Spieler
+  mutecheck:
+       description: Zeigt Mute-Infos
+  keywords:
+       description: Bearbeiten der Keywords
+  setrank:
+       description: Gibt dem Spieler bestimmte Rechte
+  nick:
+       description: Gibt dem Spieler bestimmte Rechte
+  broadcast:
+       description: Erstellt einen Broadcast mit einer bestimmten Nachricht
+  gamemode:
+       description: Gamemode-Befehl
